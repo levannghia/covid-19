@@ -31,7 +31,7 @@ if(isset($_GET['q']) && $_GET['q'] != ""){
 <div class="container">
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
-    <a href="/covid-19/index.php" class="navbar-brand">Home</a>
+    <a href="/index.php" class="navbar-brand">Home</a>
     <form class="d-flex" action="news.php" method="get">
       <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Search</button>

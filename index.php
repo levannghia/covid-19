@@ -159,7 +159,7 @@ $(document).ready(function() {
         let thanhpho = $(this).val();
         console.log(thanhpho);
         $.ajax({
-            url: "/covid-19/search.php",
+            url: "/search.php",
             type: "POST",
             data: {
                 // _token: _token,
